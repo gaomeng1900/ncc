@@ -219,7 +219,7 @@ function ncc (
       innerGraph: true,
       sideEffects: true
     },
-    devtool: sourceMap ? "cheap-module-source-map" : false,
+    devtool: sourceMap ? "inline-cheap-module-source-map" : false,
     mode: "production",
     target: target ? ["node", target] : "node",
     stats: {
